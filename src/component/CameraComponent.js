@@ -33,7 +33,7 @@ function CameraComponent() {
   const sendPhotoToServer = async (base64Data) => {
     try {
       // API 엔드포인트 URL 설정
-      const apiUrl = 'https://detectjyjy.pythonanywhere.com/'; //서버 호스팅 시 주소 바꿀 것
+      const apiUrl = 'https://detectjyjy.pythonanywhere.com'; //서버 호스팅 시 주소 바꿀 것
       
       // 서버로 전송할 데이터 객체 생성
       const dataToSend = { image: base64Data };
